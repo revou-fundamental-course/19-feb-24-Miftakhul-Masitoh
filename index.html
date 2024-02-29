@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Company Profile</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="header-wrapper">
+            <img class="logo" src="./latihan-revou/4.jpg" alt="logo">
+            <div class="menu"> 
+                <button>Home</button>
+                <button>Our Profile</button>
+                <button>Portofolio</button>
+                <button>Massage Us</button>
+            </div>
+        </header>
+
+        <h1 style="color:gray;">Welcome to Our Website</h1>
+        <div>
+            <img
+            class="img-slideshow"
+            src="./latihan-revou/5.jpg"
+            />
+           
+        </div>
+        
+     
+        <h2>Our Head Office</h2>
+         <div class="our-office">
+            <div>
+                <div class="circle-image" style="background-image: url(latihan-revou/1692364523478.jpg);"></div>
+                <h5>Jakarta</h5>
+            </div>
+            <div>
+                <div class="circle-image" style="background-image: url(latihan-revou/1692365635428.jpg);"></div>
+                <h5>Bandung</h5>
+            </div>
+            <div>
+                <div class="circle-image" style="background-image: url(latihan-revou/1692366284951.jpeg);"></div>
+                <h5>Surabaya</h5>
+            </div>
+        </div>
+    <section>
+        <h2>Message Us</h2>
+        <div class="inquiry-box">
+            <form class="inquiry-form">
+                <div>
+                    <label for="name">Nama</label>
+                    <input type="text" id="name" name="name">
+                    <p>Tanggal Lahir <input type="date"></p>
+                    <label for="gender">Jenis Kelamin</label>
+                    <select id="gender">
+                        <option value="male">Laki-Laki</option>
+                        <option value="female">Perempuan</option>
+                    </select>
+                    <label for="Message">Pesan</label>
+                    <input type="text" id="Message" name="Message">
+    
+                    <button type="button" id="sendForm">Submit</button>
+                </div>
+
+                <div class="result-form">
+                    <b>Current Time :</b>
+                    <span id="current-time"></span>
+                    <b>Nama :</b>
+                    <span id="name"></span>
+                    <b>Tanggal lahir :</b>
+                    <span id="date"></span>
+                    <b>Jenis Kelamin :</b>
+                    <span id="gender"></span>
+                    <b>Pesan :</b>
+                    <span id="Message"></span>
+
+                </div>
+            </form>
+         </div>
+    </section>
+
+    <script src="js/script.js"></script>
+    </body>
+</html>
